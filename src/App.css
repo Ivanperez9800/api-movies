@@ -20,3 +20,10 @@
     gap: 8px;
     width: 90%;
 }
+
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: auto;
+    }
+}

@@ -30,3 +30,20 @@
 .card:hover{
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 576px) {
+    .movieList{
+        flex-direction:column;
+    }
+
+    .card{
+        width: 18rem;
+    }
+
+    .card-img-top{
+        width: 288px;
+        height: 474px;
+        object-fit: cover;
+    }
+}
